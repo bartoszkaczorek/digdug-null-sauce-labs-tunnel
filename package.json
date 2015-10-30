@@ -8,6 +8,10 @@
 		"digdug": "1.3.2",
 		"request": "~2.49.0"
 	},
+	"repository": { 
+		"type": "git",
+		"url": "https://github.com/bartoszkaczorek/digdug-null-sauce-labs-tunnel.git"
+	},
   	"directories": {
   		"lib" : "./lib"
   	},
