@@ -1,0 +1,12 @@
+{
+    "proxyPort": 9001,
+    "proxyUrl": "http://localhost:9001",
+    "proxyOnly": true,
+    "maxConcurrency": 1,
+    "loaderOptions": {
+        "packages": []
+    },
+    "suites": ["test/unit/exampleTests"],
+    "functionalSuites": [],
+    "excludeInstrumentation": true
+}

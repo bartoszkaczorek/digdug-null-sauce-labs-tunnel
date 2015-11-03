@@ -1,26 +1,34 @@
 {
-	"name": "digdug-null-sauce-labs-tunnel",
-	"version": "1.0.1",
-	"author": "Bartosz Kaczorek",
-	"description": "Sauce Labs Tunnel with fixed proxy behind authentication.",
-	"dependencies": {
-		"dojo": "2.0.0-alpha.6",
-		"digdug": "1.3.2",
-		"request": "~2.49.0"
-	},
-	"repository": { 
-		"type": "git",
-		"url": "https://github.com/bartoszkaczorek/digdug-null-sauce-labs-tunnel.git"
-	},
-  	"directories": {
-  		"lib" : "./lib"
-  	},
-	"keywords": ["javascript",
-	"test",
-	"functional",
-	"selenium",
-	"webdriver",
-	"sauce labs",
-	"browserstack",
-	"testingbot"]
+  "name": "digdug-null-sauce-labs-tunnel",
+  "version": "1.0.1",
+  "author": "Bartosz Kaczorek",
+  "description": "Sauce Labs Tunnel with fixed proxy behind authentication.",
+  "dependencies": {
+    "dojo": "2.0.0-alpha.6",
+    "digdug": "1.3.2",
+    "request": "~2.49.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bartoszkaczorek/digdug-null-sauce-labs-tunnel.git"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "keywords": [
+    "javascript",
+    "test",
+    "functional",
+    "selenium",
+    "webdriver",
+    "sauce labs",
+    "browserstack",
+    "testingbot"
+  ],
+  "scripts": {
+    "test": "node_modules/.bin/intern-client config=test/config/intern.js"
+  },
+  "devDependencies": {
+    "intern": "^3.0.6"
+  }
 }
