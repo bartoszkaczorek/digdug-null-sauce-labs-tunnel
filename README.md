@@ -13,17 +13,17 @@ Unfortunately official intern Sauce Labs tunnel does not work nice when computer
 
 1. Install as npm dependency:
 
-   ```
-   npm install digdug-null-sauce-labs-tunnel --save
-   ```
+ ```
+ npm install digdug-null-sauce-labs-tunnel --save
+ ```
 2. Use custom tunnel in intern config as below:
  
-   ```json
-   {
-   	"tunnel":
-   	"dojo/node!digdug-null-sauce-labs-tunnel/lib/NullSauceLabsTunnel"
-   }
-   ```
+ ```json
+ {
+	"tunnel":
+ 	"dojo/node!digdug-null-sauce-labs-tunnel/lib/NullSauceLabsTunnel"
+ }
+ ```
 
 ## Compatibility with intern ##
 
