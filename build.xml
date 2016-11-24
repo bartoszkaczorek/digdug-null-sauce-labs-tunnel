@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project>
+<project name="digdug-null-sauce-labs-tunnel" default="all">
+
+	<dirname property="antfile.dir" file="${ant.file}" />
+
+	<target name="clean">
+		<delete dir="${antfile.dir}/node_modules" />
+	</target>
+
+	<target name="install" description="Install node modules">
+		<exec executable="cmd" dir="${antfile.dir}" osfamily="windows">
+			<arg value="/c" />
+			<arg value="npm" />
+			<arg value="install" />
+		</exec>
+	</target>
+
+	<target name="test" description="Run tests">
+		<exec executable="cmd" dir="${antfile.dir}" osfamily="windows">
+			<arg value="/c" />
+			<arg value="npm" />
+			<arg value="test" />
+		</exec>
+	</target>
+
+	<target name="all" description="" depends="clean,install,test">
+	</target>
+
+</project>

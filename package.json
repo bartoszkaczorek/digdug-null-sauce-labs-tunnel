@@ -6,7 +6,7 @@
   "dependencies": {
     "dojo": "2.0.0-alpha.6",
     "digdug": "1.6.0",
-    "request": "~2.49.0"
+    "request": "2.79.0"
   },
   "repository": {
     "type": "git",
