@@ -15,16 +15,17 @@ It is a mix of official digdug "NullTunnel.js" and "SauceLabsTunnel.js" with som
 
 1. Install as npm dependency:
 
-   ```
-   npm install digdug-null-sauce-labs-tunnel --save
-   ```
+ ```
+ npm install digdug-null-sauce-labs-tunnel --save
+ ```
+
 2. Use custom tunnel in intern config as below:
  
-   ```json
-   {
-   	"tunnel": "dojo/node!digdug-null-sauce-labs-tunnel/lib/NullSauceLabsTunnel"
-   }
-   ```
+ ```json
+ {
+ 	"tunnel": "dojo/node!digdug-null-sauce-labs-tunnel/lib/NullSauceLabsTunnel"
+ }
+ ```
 
 ## Compatibility with intern ##
 

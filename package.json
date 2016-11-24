@@ -1,6 +1,6 @@
 {
   "name": "digdug-null-sauce-labs-tunnel",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "author": "Bartosz Kaczorek",
   "description": "Sauce Labs Tunnel with fixed proxy behind authentication.",
   "dependencies": {
