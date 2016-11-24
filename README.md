@@ -11,13 +11,13 @@ Unfortunately official intern Sauce Labs tunnel does not work nice when computer
 
 ## Usage ##
 
-Install as npm dependency:
+1. Install as npm dependency:
 
 ```
 npm install digdug-null-sauce-labs-tunnel --save
 ```
 
-Use custom tunnel in intern config as below:
+2. Use custom tunnel in intern config as below:
 
 ```json
 {
