@@ -1,11 +1,11 @@
 {
   "name": "digdug-null-sauce-labs-tunnel",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Bartosz Kaczorek",
   "description": "Sauce Labs Tunnel with fixed proxy behind authentication.",
   "dependencies": {
     "dojo": "2.0.0-alpha.6",
-    "digdug": "1.3.2",
+    "digdug": "1.6.0",
     "request": "~2.49.0"
   },
   "repository": {
@@ -29,6 +29,6 @@
     "test": "node_modules/.bin/intern-client config=test/config/intern.js"
   },
   "devDependencies": {
-    "intern": "^3.0.6"
+    "intern": "^3.4.1"
   }
 }
