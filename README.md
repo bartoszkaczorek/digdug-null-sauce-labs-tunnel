@@ -20,8 +20,7 @@ Unfortunately official intern Sauce Labs tunnel does not work nice when computer
  
  ```json
  {
-	"tunnel":
- 	"dojo/node!digdug-null-sauce-labs-tunnel/lib/NullSauceLabsTunnel"
+	"tunnel": "dojo/node!digdug-null-sauce-labs-tunnel/lib/NullSauceLabsTunnel"
  }
  ```
 
