@@ -9,6 +9,8 @@ Unfortunately official intern Sauce Labs tunnel does not work nice when computer
   * [https://github.com/theintern/digdug/issues/17](https://github.com/theintern/digdug/issues/17)
   * [https://github.com/theintern/intern/issues/509](https://github.com/theintern/intern/issues/509)
 
+It is a mix of official digdug "NullTunnel.js" and "SauceLabsTunnel.js" with some custom code added.
+
 ## Usage ##
 
 1. Install as npm dependency:
